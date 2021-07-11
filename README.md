@@ -12,6 +12,18 @@ We are maintaining 2 jobs
 1. Job_1 - Reads the json data and stores into a postgres table.
 2. Job_2 - Reads the postgres table data and performs transformations to calculate the standard deviation to get the price volatility
 
+Methodology:
+-----------
+Assumption: To calculate the standard deviation price_close of every 6 minutes is considered.
+
+
+Given that time interval between each price entry is 6 minutes, 1 day has 240 records.
+1. Date column is created from "time_period_start".
+2. Average of all the "price_close" is taken day wise (Grouping based on date).
+3. Difference between each price_close and the average price is calculated and sqaured.
+4. Sum of the squared differences is calculated day wise (Grouping based on date).
+5. Calculate the variance i.e. Average of Sum of the squared differences.
+6. Based on the variance, Standard Deviation is calculated which is square root if the variance.
 
 Pre-requisites:
 --------------
