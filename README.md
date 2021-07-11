@@ -55,8 +55,24 @@ Steps to clone and run the project:
      ![image](https://user-images.githubusercontent.com/13486101/125193351-97bb2580-e269-11eb-89d9-4e60e2c9684d.png)
 
 4. In postgres create a table "input_btc" in default "postgres" database:
+       -Click on the query tool as shown 
+       -Write query to create the table 
+         
+         create table input_btc(
+          time_period_start date,
+          time_period_end date,
+          time_open date,
+          time_close date,
+          price_open decimal,
+          price_high decimal,
+          price_low decimal,
+          price_close decimal,
+          volume_traded decimal,
+          trades_count int
+          );
 
-    ![image](https://user-images.githubusercontent.com/13486101/125193626-0351c280-e26b-11eb-9a65-44f3b34f8d7c.png)
+    ![image](https://user-images.githubusercontent.com/13486101/125194927-064fb180-e271-11eb-82b0-d5c9334dd9d9.png)
+
     
 5. Run the 2 jobs:
        - InputDataMain - right click and select run InputDataMain - to get the json data from URL to postgres table
