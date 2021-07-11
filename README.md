@@ -71,7 +71,7 @@ Steps to clone and run the project:
           trades_count int
           );
 
-    ![image](https://user-images.githubusercontent.com/13486101/125194927-064fb180-e271-11eb-82b0-d5c9334dd9d9.png)
+    ![image](https://user-images.githubusercontent.com/13486101/125195433-3730e600-e273-11eb-87f2-46f7fff97542.png)
 
     
 5. Run the 2 jobs:
