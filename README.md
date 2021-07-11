@@ -20,7 +20,9 @@ Steps to clone and run the project:
   
   ![image](https://user-images.githubusercontent.com/13486101/125192917-a86a9c00-e267-11eb-9f85-6e2fc62e5ce1.png)
 
-2. Open Git Bash where you would like to clone this project
-
+2. Open Git Bash where you would like to clone this project.
 
     ![image](https://user-images.githubusercontent.com/13486101/125193077-4eb6a180-e268-11eb-9d4c-746b8202ff57.png)
+    
+3. Open the project on your IntelliJ by nevigating to the location same as step 2
+  ![image](https://user-images.githubusercontent.com/13486101/125193216-ef0cc600-e268-11eb-8883-4ba3fb698e82.png)
