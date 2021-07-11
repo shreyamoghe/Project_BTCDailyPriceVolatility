@@ -74,6 +74,6 @@ Steps to clone and run the project:
     ![image](https://user-images.githubusercontent.com/13486101/125195433-3730e600-e273-11eb-87f2-46f7fff97542.png)
 
     
-5. Run the 2 jobs:
+5. Run the 2 jobs from IntelliJ:
        - InputDataMain - right click and select run InputDataMain - to get the json data from URL to postgres table
        - Main  - right click and select run Main - to get the standard deviation resuls
