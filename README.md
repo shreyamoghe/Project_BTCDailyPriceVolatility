@@ -3,19 +3,19 @@ BTC price volatility
 
 Agenda:
 -------
-The Bitcoin price keep changing due to multiple factors that affects the market. 
-To have a better picture, our goal is to understand its daily volatility for year 2020.
+The Bitcoin price keeps changing due to multiple factors that affects the market. 
+To have a better picture, our goal is to understand its daily volatility for the year 2020.
 
 Concept:
 --------
 We are maintaining 2 jobs
-1. Job_1 - Reads the json data and stores into a postgres tables
+1. Job_1 - Reads the json data and stores into a postgres table.
 2. Job_2 - Reads the postgres table data and performs transformations to calculate the standard deviation to get the price volatility
 
 
 Pre-requisites:
 --------------
-In order to run this spark job on your local machine, following setup are needed:
+In order to run this spark job on your local machine, following setup is needed:
 1. IntelliJ IDEA Editor (to read run the code, and change some hardcoded values if needed)
 2. Git bash (to clone the project)
 3. postgreSQL-42.2.4 (with user: "postgres" and password: "Carrom@123"). 
