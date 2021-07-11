@@ -1,9 +1,17 @@
 BTC price volatility
 ====================
+
 Agenda:
 -------
 The Bitcoin price keep changing due to multiple factors that affects the market. 
 To have a better picture, our goal is to understand its daily volatility for year 2020.
+
+Concept:
+--------
+We are maintaining 2 jobs
+1. Job_1 - Reads the json data and stores into a postgres tables
+2. Job_2 - Reads the postgres table data and performs transformations to calculate the standard deviation to get the price volatility
+
 
 Pre-requisites:
 --------------
