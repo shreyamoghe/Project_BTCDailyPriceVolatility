@@ -77,3 +77,4 @@ Steps to clone and run the project:
 5. Run the 2 jobs from IntelliJ:
        - InputDataMain - right click and select run InputDataMain - to get the json data from URL to postgres table
        - Main  - right click and select run Main - to get the standard deviation resuls
+   You can see the output data in "spark-warehouse" directory present in your project directory.
